@@ -1,11 +1,19 @@
 {
+  "name": "nextjs-ts-simple-boilerplate",
+  "version": "0.0.1",
   "private": true,
+  "author": "chlee1001 <chlee1001@naver.com>",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "build-storybook": "build-storybook",
+    "dev": "next dev",
     "start": "next start",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "lint": "eslint ./app --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint --fix ./app --ext .js,.jsx,.ts,.tsx"
+  },
+  "resolutions": {
+    "postcss": "^8.4.18"
   },
   "dependencies": {
     "next": "latest",
@@ -27,14 +35,20 @@
     "@types/node": "^18.14.6",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.54.1",
     "autoprefixer": "^10.4.12",
     "babel-loader": "^9.1.2",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8.4.18",
     "prettier": "^2.8.4",
     "tailwindcss": "^3.2.4",
     "typescript": "4.9.5"
-  },
-  "resolutions": {
-    "postcss": "^8.4.18"
   }
 }
