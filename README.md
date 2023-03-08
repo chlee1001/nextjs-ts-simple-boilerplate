@@ -1,27 +1,38 @@
-# Next.js + Tailwind CSS Example
+# NextJS TS Simple Boilerplate
+NextJS + Typescript + TailwindCSS + ESLint + Prettier + Husky + Lint-Staged + Storybook 까지 적용 된 Boilerplate 입니다.
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Prerequisites
 
-## Deploy your own
+- [Node.js](https://nodejs.org/)
+    - Version 16.14.0 이상
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Getting Started
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+### Installation
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+git clone https://github.com/chlee1001/nextjs-ts-simple-boilerplate.git
+cd nextjs-ts-simple-boilerplate
+yarn install
 ```
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Features
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+- [NextJS](https://nextjs.org/): Latest
+- [React](https://ko.reactjs.org/): 18.2.0
+- [TypeScript](https://www.typescriptlang.org/)
+- [Babel](https://babeljs.io/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://typicode.github.io/husky/#/)
+- [Storybook](https://storybook.js.org/)
+### Linters
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- [`eslint`](https://github.com/eslint/eslint) - Enforce styleguide across application
+- [`eslint-config-prettier`](https://github.com/prettier/eslint-config-prettier) - Implement prettier rules
+- [`eslint-plugin-import`](https://github.com/benmosher/eslint-plugin-import) - Implement import rules
+- [`eslint-plugin-prettier`](https://github.com/prettier/eslint-plugin-prettier) - Dependency for prettier usage with ESLint
+- [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react) - React specific linting rules for `ESLint`
+- [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks) - This ESLint plugin enforces the Rules of Hooks
+- [`prettier`](https://github.com/prettier/prettier) - code formatter
