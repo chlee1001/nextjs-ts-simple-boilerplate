@@ -4,7 +4,10 @@ import '../styles/globals.css';
 const RootLayout = ({children}: PropsWithChildren) => {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div>Root Layout</div>
+        {children}
+      </body>
     </html>
   );
 };
